@@ -1,29 +1,3 @@
-\documentclass{standalone}
-\usepackage{tikz}
-\usetikzlibrary{shapes,arrows}
-\usepackage{dot2texi}
-\usepackage{xcolor}
-
-
-\usepackage{fontspec}
-\setmainfont{Berenis ADF Pro SC}
-
-%\usepackage[active,tightpage]{preview}
-%\PreviewEnvironment{tikzpicture}
-%\setlength\PreviewBorder{20pt}
-
-\tikzset{
-every picture/.style={
-  execute at end picture={
-    \path (current bounding box.south west) +(-1,-1) (current bounding box.north east) +(1,1);
-    }
-  }
-}
-\begin{document}
-
-\pagecolor{black!90}
-
-\begin{dot2tex}[dot,tikz]
 graph G
 {
     //Config
@@ -62,8 +36,8 @@ graph G
     " " -- "Urotsuki's Room"[dir=forward]
     "Urotsuki's Room" -- "Urotsuki's Balcony"
     "Urotsuki's Room" -- "Urotsuki's Dream Balcony" [dir=forward]
-	"Urotsuki's Dream Balcony" -- "Urotsuki's Dream Room"
-	"Urotsuki's Dream Room" -- "The Nexus"
+"Urotsuki's Dream Balcony" -- "Urotsuki's Dream Room"
+"Urotsuki's Dream Room" -- "The Nexus"
 
     "The Nexus" -- "Abstract Corrosions"
     "The Nexus" -- "Bacteria World"
@@ -387,6 +361,3 @@ graph G
     "Worksite" -- "Balloon Park"
 }
 
-\end{dot2tex}
-
-\end{document}
