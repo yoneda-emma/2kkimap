@@ -29,12 +29,13 @@ graph G
 
     "Kagami Mochi Mask"[shape=note]
 
-    "Menu Theme no. 30"[shape=box]
-    "Menu Theme no. 40"[shape=box]
-    "Menu Theme no. 46"[shape=box]
-    "Menu Theme no. 64"[shape=box]
-    "Menu Theme no. 71"[shape=box]
-    "Menu Theme no. 72"[shape=box]
+    "Menu Theme #12"[shape=box]
+    "Menu Theme #30"[shape=box]
+    "Menu Theme #40"[shape=box]
+    "Menu Theme #46"[shape=box]
+    "Menu Theme #64"[shape=box]
+    "Menu Theme #71"[shape=box]
+    "Menu Theme #72"[shape=box]
 
     "Dream Apartment Telephone"[shape=trapezium]
     
@@ -78,6 +79,9 @@ graph G
 
     "Abandoned Campsite" -- "Mourning Void"[dir=forward]
     "Abandoned Campsite" -- "Pointing Labyrinth"
+    
+    "Abandoned Factory" -- "Arc de Pillar World"
+    "Abandoned Factory" -- "Wind Tunnel"
 
     "Abstract Corrosions" -- "Nail World"
     "Abstract Corrosions" -- "Pin Cushion Vineyard"
@@ -118,7 +122,7 @@ graph G
 
     "Birch Forest" -- "Magnet Room: Zalgo's Room"
 
-    "Black Ink World" -- "Menu Theme no. 30"
+    "Black Ink World" -- "Menu Theme #30"
 
     "Blue Eyes World" -- "Archery Cavalry World"
 
@@ -127,6 +131,9 @@ graph G
     "Blue Shape Zone" -- "Heart Pattern Pathway"
 
     "Bodacious Rotation Station" -- "Floating Stones World"
+    
+    "Bottom Garden" -- "Overgrown Gate"
+    "Bottom Garden" -- "Town Maze"
 
     "Broken Faces Area" -- "Fairy Tale Woods"
     "Broken Faces Area" -- "Floating Red Tiles World"
@@ -144,6 +151,9 @@ graph G
     "Check-Disk Nexus" -- "Candle Block World"
     "Check-Disk Nexus" -- "Numeral Hallways"
     "Check-Disk Nexus" -- "Spiral Sign Abyss"
+    
+    "Cigarette World" -- "Playing Card Dungeon"
+    "Cigarette World" -- "Scrapyard"
 
     "Cipher Keyboard" -- "Spaceship"
     "Cipher Keyboard" -- "The Void"
@@ -152,13 +162,16 @@ graph G
 
     "Clock World" -- "Dark Bunker"
     "Clock World" -- "Flying Fish World"
+    
+    "Cog Maze" -- "Forest Pier"[dir=forward]
 
     "Collaged Charcoal World" -- "Fall Shoal"
 
     "Color Cubes World" -- "FC Caverns C"
 
     "Concrete World" -- "Frigid Meadow"
-
+    
+    "Construction Frame Building" -- "Cog Maze"
     "Construction Sign World" -- "Worksite"
 
     "Crimson Chair Area" -- "Turqoise Cityscape"
@@ -221,6 +234,8 @@ graph G
 
     "Flying Fish World" -- "Animated Hub"
     "Flying Fish World" -- "Urban Street Area"
+    
+    "Forest Pier" -- "Abandoned Factory"
 
     "Forest World" -- "Astral World"
     "Forest World" -- "Chocolate World"
@@ -260,7 +275,11 @@ graph G
     "Graveyard World" -- "Grave Effect"
     "Graveyard World" -- "Hospital"
     "Graveyard World" -- "Red Lily Lake"
+    
+    "Gray Road" -- "Sprout World"
 
+    "Green Neon World" -- "Construction Frame Building"
+    
     "Handheld Game Pond" -- "Monochrome GB World: GB Well"
 
     "Heart Pattern Pathway" -- "Scale Model Exhibit"
@@ -312,6 +331,8 @@ graph G
     "Lotus Waters" -- "Seaside Village"
 
     "Magenta Village" -- "Playbox Passage"
+    
+    "Maple Forest" -- "Star Hub"
 
     "Marijuana Goddess World" -- "Color Cubes World"
     "Marijuana Goddess World" -- "Dark Room"
@@ -320,11 +341,11 @@ graph G
     
     "Monochrome Feudal Japan: Monochrome Path" -- "Monochrome Feudal Japan"
 
-    "Monochrome GB World" -- "Menu Theme no. 46"
+    "Monochrome GB World" -- "Menu Theme #46"
     "Monochrome GB World" -- "Monochrome GB World: GB Tunnel"
     "Monochrome GB World" -- "Monochrome GB World: GB Well"
     
-    "Monochrome GB World: GB Tunnel" -- "Menu Theme no. 40"
+    "Monochrome GB World: GB Tunnel" -- "Menu Theme #40"
 
     "Monochrome Street" -- "Animated Hub"
     "Monochrome Street" -- "Shinto Shrine"
@@ -359,6 +380,8 @@ graph G
 
     "Ornamental Plains" -- "Birch Forest"
     "Ornamental Plains" -- "Rubber Duck Islands"
+    
+    "Overgrown Gate" -- "Tulip Lamp World"
 
     "Ox Horn Plaza" -- "Binding Site"
 
@@ -366,11 +389,13 @@ graph G
 
     "Pin Cushion Vineyard" -- "Autumn Pastel Plains"
     "Pin Cushion Vineyard" -- "Blue Palm Road"
+    
+    "Playing Card Dungeon" -- "Maple Forest"
 
     "Pointing Labyrinth" -- "Serpent Ruins A"
     
     "Pollution District" -- "Scale Model Exhibit"
-    "Pollution District" -- "Menu Theme no. 64"
+    "Pollution District" -- "Menu Theme #64"
     
     "Portrait Purgatory" -- "Poseidon Plaza"
     "Portrait Purgatory" -- "Sakura Forest"
@@ -387,6 +412,8 @@ graph G
     "Purple World" -- "Highway"
     "Purple World" -- "Red Monastery"
     "Purple World" -- "Shield Owl World"
+    
+    "Radiant Ruins" -- "Bottom Garden"
 
     "Realistic Beach" -- "The Docks"
 
@@ -402,6 +429,7 @@ graph G
 
     "Red Sky Cliff: Splash Streetway" -- "Constellation World"
     
+    "Red Streetlight World" -- "Gray Road"
     "Red Streetlight World" -- "Magnet Room"
     "Red Streetlight World" -- "Monochrome Street"
     "Red Streetlight World" -- "Reef Maze"
@@ -414,12 +442,14 @@ graph G
 
     "Rock World" -- "Entomophobia Realm"
     "Rock World" -- "Theatre World"
+    
+    "Rose Church" -- "Menu Theme #12"
 
     "Rubber Duck Islands" -- "Fountain World"
 
     "Sakura Forest" -- "Shinto Shrine"
 
-    "Scattered Sky Fields" -- "Menu Theme no. 72"
+    "Scattered Sky Fields" -- "Menu Theme #72"
 
     "Scenic Outlook" -- "Insect Effect"
 
@@ -451,6 +481,7 @@ graph G
     "Spore Forest" -- "Spiked Fence Garden"
 
     "Sprout World" -- "Dream Venus"
+    "Sprout World" -- "Green Neon World"
 
     "Streetlight Docks" -- "Marshmallow Shallows"[dir=forward]
 
@@ -489,12 +520,16 @@ graph G
     "Theatre World"  -- "Donut Hole World" 
     "Theatre World" -- "Neon Candle World"
     "Theatre World" -- "Spelling Room"
+    
+    "Tiled Canvas" -- "Playing Card Dungeon"
 
     "Toy World" -- "Day and Night Towers"
 
     "Tricolor Room (Picture Book)" -- "Piano Room"
+    
+    "Tulip Lamp World" -- "Rose Church"
 
-    "Turqoise Cityscape" -- "Menu Theme no. 71"
+    "Turqoise Cityscape" -- "Menu Theme #71"
     "Turqoise Cityscape" -- "Scattered Sky Fields"
 
     "Underground Garage" -- "Apartments" 
@@ -504,8 +539,10 @@ graph G
     "Urotsuki's Dream Apartments" -- "Butcher Hollow"
     "Urotsuki's Dream Apartments" -- "Check-Disk Nexus"
     "Urotsuki's Dream Apartments" -- "Dream Apartment Telephone"
+    "Urotsuki's Dream Apartments" -- "Forest Pier"[dir=forward]
     "Urotsuki's Dream Apartments" -- "Magnet Room"
-
+    
+    "Usugurai Residence" -- "Cigarette World"
     "Usugurai Residence" -- "Wishing Stones"
 
     "Valentine Mail" -- "Tiled Canvas"
@@ -522,6 +559,9 @@ graph G
     "Waterlogged Flats" -- "Ox Horn Plaza"
     
     "Wilderness" -- "Head Wasteland" 
+    
+    "Wind Tunnel" -- "Deserted Pier"
+    "Wind Tunnel" -- "Radiant Ruins"
     
     "Wishing Stones" -- "Underwater Forest"
 
