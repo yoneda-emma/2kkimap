@@ -4,6 +4,7 @@ graph G
     fontname="Courier-Sans"
     bgcolor="#111111"
     ranksep=2
+    rankdir=TB
 
     node[
     shape=plaintext,
@@ -23,6 +24,7 @@ graph G
     "Stretch Effect"[shape=box]
     "Twintails Effect"[shape=box]
     "Insect Effect"[shape=box]
+    "Maiko Effect"[shape=box]
 
     "Menu Theme no. 30"[shape=box]
     "Menu Theme no. 40"[shape=box]
@@ -84,6 +86,8 @@ graph G
     "Adabana Gardens" -- "Bubble World"
     "Adabana Gardens" -- "Field of Cosmos"
 
+    "Animated Hub" -- "Art Exposition"
+    "Animated Hub" -- "Concrete World"
     "Animated Hub" -- "Stony Buildings"
 
     "Apartments" -- "Monochrome GB World"
@@ -145,13 +149,15 @@ graph G
     "Cipher Keyboard" -- "Spaceship"
     "Cipher Keyboard" -- "The Void"
 
-    "Cliffside Woods" -- "Frigid Meadow: Frozen Cavern"
+    "Cliffside Woods" -- "Frigid Meadow"
 
     "Clock World" -- "Dark Bunker"
 
     "Collaged Charcoal World" -- "Fall Shoal"
 
     "Color Cubes World" -- "FC Caverns C"
+
+    "Concrete World" -- "Frigid Meadow"
 
     "Construction Sign World" -- "Worksite"
 
@@ -227,10 +233,6 @@ graph G
     "Forlorn Beach House" -- "Verdigris Garden"
 
     "Fountain World" -- "Stingray Skies"
-
-    "Frigid Meadow" -- "Concrete World"
-
-    "Frigid Meadow: Frozen Cavern" -- "Frigid Meadow"
 
     "Frozen Glade" -- "Glowing Stars World"
 
@@ -318,6 +320,9 @@ graph G
     
     "Monochrome GB World: GB Tunnel" -- "Menu Theme no. 40"
 
+    "Monochrome Street" -- "Animated Hub"
+    "Monochrome Street" -- "Shinto Shrine"
+
     "Morning Suburbs" -- "Cerulean School"
 
     "Mourning Void" -- "Dream Route"
@@ -360,12 +365,17 @@ graph G
     "Pollution District" -- "Scale Model Exhibit"
     "Pollution District" -- "Menu Theme no. 64"
 
+    "Portrait Purgatory" -- "Poseidon Plaza"
+    "Portrait Purgatory" -- "Sakura Forest"
+
     "Pudding World" -- "Orange Badlands"
     "Pudding World" -- "Soy Basket World"
 
     "Pure White Lands" -- "Lamplit Stones"
 
+    "Purple World" -- "Black Building"
     "Purple World" -- "Highway"
+    "Purple World" -- "Red Monastery"
 
     "Realistic Beach" -- "The Docks"
 
@@ -373,11 +383,14 @@ graph G
 
     "Red Lily Lake" -- "Red Sky Cliff: Splash Streetway"
 
+    "Red Monastery" -- "T-Folk World"
+
     "Red Sewers" -- "Marshmallow Shallows"
 
     "Red Sky Cliff: Splash Streetway" -- "Constellation World"
     
     "Red Streetlight World" -- "Magnet Room"
+    "Red Streetlight World" -- "Monochrome Street"
     "Red Streetlight World" -- "Reef Maze"
 
     "Reef Maze" -- "Hall of Memories"
@@ -390,6 +403,8 @@ graph G
     "Rock World" -- "Theatre World"
 
     "Rubber Duck Islands" -- "Fountain World"
+
+    "Sakura Forest" -- "Shinto Shrine"
 
     "Scattered Sky Fields" -- "Menu Theme no. 72"
 
@@ -405,6 +420,7 @@ graph G
     "Shield Owl World" -- "Bodacious Rotation Station"
     "Shield Owl World" -- "NES Glitch Tunnel"
 
+    "Shinto Shrine" -- "Maiko Effect"
     "Shinto Shrine" -- "The Circus"
 
     "Sierpinski Maze" -- "Virtual City"
@@ -426,6 +442,8 @@ graph G
     "Streetlight Docks" -- "Marshmallow Shallows"[dir=forward]
 
     "Sunrise Road" -- "Morning Suburbs"
+
+    "T-Folk World" -- "Giant Desktop"
 
     "The Deciding Street" -- "Netherworld"
     "The Deciding Street" -- "Dizzy Spirals World"
