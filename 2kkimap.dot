@@ -24,7 +24,10 @@ graph G
     "Stretch Effect"[shape=box]
     "Twintails Effect"[shape=box]
     "Insect Effect"[shape=box]
+
     "Maiko Effect"[shape=box]
+
+    "Kagami Mochi Mask"[shape=note]
 
     "Menu Theme no. 30"[shape=box]
     "Menu Theme no. 40"[shape=box]
@@ -40,15 +43,12 @@ graph G
     " " -- "Urotsuki's Room"[dir=forward]
     "Urotsuki's Room" -- "Urotsuki's Balcony"
     "Urotsuki's Room" -- "Urotsuki's Dream Balcony" [dir=forward]
-	"Urotsuki's Dream Balcony" -- "Urotsuki's Dream Room"
-	"Urotsuki's Dream Room" -- "The Nexus"
+    "Urotsuki's Dream Balcony" -- "Urotsuki's Dream Room"
+    "Urotsuki's Dream Room" -- "The Nexus"
 
-    "The Nexus" -- "Abandoned Campsite"
     "The Nexus" -- "Abstract Corrosions"
-    "The Nexus" -- "Bacteria World"
     "The Nexus" -- "Blue Eyes World"
     "The Nexus" -- "Cipher Keyboard"
-    "The Nexus" -- "Clock World"
     "The Nexus" -- "Deep Red Wilds"
     "The Nexus" -- "Forest World"
     "The Nexus" -- "Garden World"
@@ -67,7 +67,6 @@ graph G
     "The Nexus" -- "Purple World"
     "The Nexus" -- "Red Streetlight World"
     "The Nexus" -- "Rock World"
-    "The Nexus" -- "Shield Owl World"
     "The Nexus" -- "Toy World"
     "The Nexus" -- "Urotsuki's Dream Apartments"
     "The Nexus" -- "Usugurai Residence"
@@ -114,7 +113,6 @@ graph G
     "Binding Site" -- "Auburn Villa"
     "Binding Site" -- "Grayscale Bookshelves"
     "Binding Site" -- "Violent Fruit District"
-    "Binding Site" -- "Teddy Bear Land"
     "Binding Site" -- "Vivid Blue Flatlands"
     "Binding Site" -- "Cement World"
 
@@ -131,6 +129,7 @@ graph G
     "Bodacious Rotation Station" -- "Floating Stones World"
 
     "Broken Faces Area" -- "Fairy Tale Woods"
+    "Broken Faces Area" -- "Floating Red Tiles World"
     "Broken Faces Area" -- "Vase World"
 
     "Bubble World" -- "Red Sewers"
@@ -152,6 +151,7 @@ graph G
     "Cliffside Woods" -- "Frigid Meadow"
 
     "Clock World" -- "Dark Bunker"
+    "Clock World" -- "Flying Fish World"
 
     "Collaged Charcoal World" -- "Fall Shoal"
 
@@ -170,7 +170,6 @@ graph G
     "Crossing Forest" -- "Waterlogged Flats"
 
     "Dark Bunker" -- "Spear Tribe World"
-    "Dark Bunker" -- "The Hand Hub"
 
     "Dark Museum" -- "Flying Fish World"
     "Dark Museum" -- "Glasses Effect"
@@ -215,6 +214,8 @@ graph G
 
     "Fish World" -- "Binding Site"
     "Fish World" -- "Dessert Fields: Glowing Cube Zone"
+    
+    "Floating Red Tiles World" -- "Teddy Bear Land"
 
     "Floating Stones World" -- "Sprout World"
 
@@ -223,6 +224,7 @@ graph G
 
     "Forest World" -- "Astral World"
     "Forest World" -- "Chocolate World"
+    "Forest World" -- "Golden Sunset Estate"
     "Forest World" -- "Forest World: The Monster's Jaw"
     "Forest World" -- "Forest World: Underground"
 
@@ -248,6 +250,10 @@ graph G
     "Glitched Butterfly Sector" -- "Sierpinski Maze"
 
     "Glowing Tree Path" -- "Oblique Hell"
+    
+    "Golden Sunset Estate" -- "Abandoned Campsite"
+    "Golden Sunset Estate" -- "Clock World"
+    "Golden Sunset Estate" -- "Kagami Mochi Mask"
 
     "Graffiti Maze" -- "Stretch Effect"
 
@@ -330,6 +336,7 @@ graph G
     "Mushroom World" -- "Bug Maze"
     "Mushroom World" -- "Elvis Masada's Place"
 
+    "Nail World" -- "Red Nail Passage"
     "Nail World" -- "Theatre World"
     
     "Neon Candle World" -- "Cloud Tops"
@@ -364,6 +371,9 @@ graph G
     
     "Pollution District" -- "Scale Model Exhibit"
     "Pollution District" -- "Menu Theme no. 64"
+    
+    "Portrait Purgatory" -- "Poseidon Plaza"
+    "Portrait Purgatory" -- "Sakura Forest"
 
     "Portrait Purgatory" -- "Poseidon Plaza"
     "Portrait Purgatory" -- "Sakura Forest"
@@ -376,12 +386,15 @@ graph G
     "Purple World" -- "Black Building"
     "Purple World" -- "Highway"
     "Purple World" -- "Red Monastery"
+    "Purple World" -- "Shield Owl World"
 
     "Realistic Beach" -- "The Docks"
 
     "Red City" -- "Head Wasteland"
 
     "Red Lily Lake" -- "Red Sky Cliff: Splash Streetway"
+    
+    "Red Nail Passage" -- "Window Room"
 
     "Red Monastery" -- "T-Folk World"
 
@@ -442,6 +455,9 @@ graph G
     "Streetlight Docks" -- "Marshmallow Shallows"[dir=forward]
 
     "Sunrise Road" -- "Morning Suburbs"
+    
+    "Teddy Bear Land" -- "Binding Site"
+    "Teddy Bear Land" -- "Window Room"[dir=back]
 
     "T-Folk World" -- "Giant Desktop"
 
@@ -450,7 +466,8 @@ graph G
     "The Deciding Street" -- "The Deciding Street: The Bazaar"
     
     "The Deciding Street: The Bazaar" -- "Twintails Effect"
-
+    
+    "The Hand Hub" -- "Dark Bunker"
     "The Hand Hub" -- "Shinto Shrine"
 
     "The Magic Nexus" -- "Azure Arm Land"
@@ -505,7 +522,7 @@ graph G
     "Waterlogged Flats" -- "Ox Horn Plaza"
     
     "Wilderness" -- "Head Wasteland" 
-
+    
     "Wishing Stones" -- "Underwater Forest"
 
     "Worksite" -- "Balloon Park"
