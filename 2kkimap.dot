@@ -1,0 +1,627 @@
+graph G 
+{         
+    center=true
+    fontname="Courier-Sans"
+    bgcolor="#111111"
+    ranksep=2
+    rankdir=TB
+
+    node[
+    shape=plaintext,
+    fontcolor="#dddddd",
+    color="#dddddd"
+    ]
+
+    edge[
+    color="#dddddd"
+    ]
+    
+    "The Nexus"[shape=circle]
+
+    "Boy Effect"[shape=box]
+    "Crossing Effect"[shape=box]
+    "Glasses Effect"[shape=box]
+    "Grave Effect"[shape=box]
+    "Stretch Effect"[shape=box]
+    "Twintails Effect"[shape=box]
+    "Insect Effect"[shape=box]
+
+    "Maiko Effect"[shape=box]
+
+    "Kagami Mochi Mask"[shape=note]
+
+    "Menu Theme #12"[shape=box]
+    "Menu Theme #30"[shape=box]
+    "Menu Theme #40"[shape=box]
+    "Menu Theme #46"[shape=box]
+    "Menu Theme #64"[shape=box]
+    "Menu Theme #71"[shape=box]
+    "Menu Theme #72"[shape=box]
+
+    "Dream Apartment Telephone"[shape=trapezium]
+    
+    //Connections :D
+
+    " " -- "Urotsuki's Room"[dir=forward]
+    "Urotsuki's Room" -- "Urotsuki's Balcony"
+    "Urotsuki's Room" -- "Urotsuki's Dream Balcony" [dir=forward]
+    "Urotsuki's Dream Balcony" -- "Urotsuki's Dream Room"
+    "Urotsuki's Dream Room" -- "The Nexus"
+
+    "The Nexus" -- "Abstract Corrosions"
+    "The Nexus" -- "Blue Eyes World"
+    "The Nexus" -- "Cipher Keyboard"
+    "The Nexus" -- "Deep Red Wilds"
+    "The Nexus" -- "Forest World"
+    "The Nexus" -- "Garden World"
+    "The Nexus" -- "Geometry World"
+    "The Nexus" -- "Graveyard World"
+    "The Nexus" -- "Heart World"
+    "The Nexus" -- "Lamp Puddle World"
+    "The Nexus" -- "Lemonade Edifice"
+    "The Nexus" -- "Library"
+    "The Nexus" -- "Marijuana Goddess World"
+    "The Nexus" -- "Mushroom World"
+    "The Nexus" -- "Night World"
+    "The Nexus" -- "Ornamental Plains"
+    "The Nexus" -- "Portrait Purgatory"
+    "The Nexus" -- "Pudding World"
+    "The Nexus" -- "Purple World"
+    "The Nexus" -- "Red Streetlight World"
+    "The Nexus" -- "Rock World"
+    "The Nexus" -- "Toy World"
+    "The Nexus" -- "Urotsuki's Dream Apartments"
+    "The Nexus" -- "Usugurai Residence"
+    "The Nexus" -- "Trophy Room"
+
+    "3D Underworld" -- "Critter Village"
+    "3D Underworld" -- "Kaleidoscope World"
+    "3D Underworld" -- "Streetlight Docks"
+
+    "Abandoned Campsite" -- "Mourning Void"[dir=forward]
+    "Abandoned Campsite" -- "Pointing Labyrinth"
+    
+    "Abandoned Factory" -- "Arc de Pillar World"
+    "Abandoned Factory" -- "Wind Tunnel"
+
+    "Abstract Corrosions" -- "Nail World"
+    "Abstract Corrosions" -- "Pin Cushion Vineyard"
+
+    "Adabana Gardens" -- "Bubble World"
+    "Adabana Gardens" -- "Field of Cosmos"
+
+    "Animated Hub" -- "Art Exposition"
+    "Animated Hub" -- "Concrete World"
+    "Animated Hub" -- "Stony Buildings"
+
+    "Apartments" -- "Monochrome GB World"
+    "Apartments" -- "Sky Kingdom"
+    "Apartments" -- "The Docks"
+
+    "Archery Cavalry World" -- "Ox Horn Plaza"
+
+    "Art Gallery" -- "Cloud Tops"
+    "Art Gallery" -- "Monochrome Feudal Japan: Monochrome Path"
+
+    "Astral World" -- "Frozen Glade"
+    "Astral World" -- "Sauna Corridors"
+    "Astral World" -- "Astral World: Nightshade Corridor"
+    "Astral World" -- "Candlestick World"
+
+    "Astral World: Nightshade Corridor" -- "Obentou World"
+
+    "Autumn Pastel Plains" -- "Collaged Charcoal World"
+
+    "Bacteria World" -- "Blue Shape Zone"
+    "Bacteria World" -- "Color Capital"
+
+    "Binding Site" -- "Auburn Villa"
+    "Binding Site" -- "Grayscale Bookshelves"
+    "Binding Site" -- "Violent Fruit District"
+    "Binding Site" -- "Vivid Blue Flatlands"
+    "Binding Site" -- "Cement World"
+
+    "Birch Forest" -- "Magnet Room: Zalgo's Room"
+
+    "Black Ink World" -- "Menu Theme #30"
+
+    "Blood Rose Canal" -- "Memory Town"[dir=forward]
+
+    "Blue Eyes World" -- "Archery Cavalry World"
+
+    "Blue Palm Road" -- "White Pillar Docks"
+
+    "Blue Shape Zone" -- "Heart Pattern Pathway"
+
+    "Bodacious Rotation Station" -- "Floating Stones World"
+    
+    "Bottom Garden" -- "Overgrown Gate"
+    "Bottom Garden" -- "Town Maze"
+
+    "Bridged Swamp Islands" -- "Heian Era Village"
+
+    "Broken Faces Area" -- "Fairy Tale Woods"
+    "Broken Faces Area" -- "Floating Red Tiles World"
+    "Broken Faces Area" -- "Vase World"
+
+    "Brutalist Complex" -- "Cookie Haven"
+
+    "Bubble World" -- "Red Sewers"
+
+    "Bug Maze" -- "Scenic Outlook"
+
+    "Burial Desert" -- "Industrial Towers"
+
+    "Candlelight Void" -- "Blood Rose Canal"
+
+    "Cerulean School" -- "Balloon Park"
+
+    "Check-Disk Nexus" -- "Bloodied Mural World"
+    "Check-Disk Nexus" -- "Candle Block World"
+    "Check-Disk Nexus" -- "Numeral Hallways"
+    "Check-Disk Nexus" -- "Spiral Sign Abyss"
+
+    "Chicken World" -- "Nazca Valley"
+    
+    "Cigarette World" -- "Playing Card Dungeon"
+    "Cigarette World" -- "Scrapyard"
+
+    "Cinder Statue Heaven" -- "Graffiti Sector"
+    "Cinder Statue Heaven" -- "Stalker Alley"
+
+    "Cipher Keyboard" -- "Spaceship"
+    "Cipher Keyboard" -- "The Void"
+
+    "Cliffside Woods" -- "Frigid Meadow"
+
+    "Clock World" -- "Dark Bunker"
+    "Clock World" -- "Flying Fish World"
+    
+    "Cog Maze" -- "Forest Pier"[dir=forward]
+
+    "Collaged Charcoal World" -- "Fall Shoal"
+
+    "Color Cubes World" -- "FC Caverns C"
+
+    "Concrete World" -- "Frigid Meadow"
+    
+    "Construction Frame Building" -- "Cog Maze"
+    "Construction Sign World" -- "Worksite"
+
+    "Cookie Haven" -- "Megalith Grove"
+
+    "Crimson Chair Area" -- "Turqoise Cityscape"
+
+    "Critter Village" -- "Oblique Hell: First-Person Maze"
+    "Critter Village" -- "Unknown Location"
+    
+    "Crossing Forest" -- "Construction Sign World"
+    "Crossing Forest" -- "Waterlogged Flats"
+
+    "Dark Bunker" -- "Spear Tribe World"
+
+    "Dark Museum" -- "Flying Fish World"
+    "Dark Museum" -- "Glasses Effect"
+
+    "Dark Room" -- "Hourglass Desert"
+
+    "Day and Night Towers" -- "Mini Maze"
+    "Day and Night Towers" -- "Othello Board"
+
+    "Deep Red Wilds" -- "Deep Red Wilds: Prehistoric Passage"
+
+    "Deep Red Wilds: Prehistoric Passage" -- "Deep Red Wilds: Ruined Skyline"
+
+    "Deep Red Wilds: Ruined Skyline" -- "Stingray Skies"
+    
+    "Dessert Fields" -- "Dessert Fields: Glowing Cube Zone"
+
+    "Dizzy Spirals World" -- "Robotic Slaves Tunnel"
+
+    "Downfall Garden A" -- "Crimson Chair Area"
+
+    "Dream Apartment Telephone" -- "Dark Warehouse"
+
+    "Dream Mars" -- "Lotus Waters"
+
+    "Dream Venus" -- "Dream Mars"
+
+    "Drift Passage" -- "Gray Road"
+    "Drift Passage" -- "The Hand Hub"[dir=forward]
+
+    "Ecstasy World" -- "Sky Kingdom"
+
+    "Elvis Masada's Place" -- "Forlorn Beach House"
+
+    "Entomophobia Realm" -- "Spore Forest"
+
+    "Fall Shoal" -- "Lamp Passage"
+
+    "Fairy Tale Woods" -- "Scenic Outlook"
+
+    "FC Caverns C" -- "Home Within Nowhere"
+
+    "Fish Oil Swamp" -- "Cinder Statue Heaven"
+
+    "Fish World" -- "Binding Site"
+    "Fish World" -- "Dessert Fields: Glowing Cube Zone"
+    
+    "Floating Red Tiles World" -- "Teddy Bear Land"
+
+    "Floating Stones World" -- "Sprout World"
+
+    "Flying Fish World" -- "Animated Hub"
+    "Flying Fish World" -- "Urban Street Area"
+    
+    "Forest Pier" -- "Abandoned Factory"
+
+    "Forest World" -- "Astral World"
+    "Forest World" -- "Chocolate World"
+    "Forest World" -- "Golden Sunset Estate"
+    "Forest World" -- "Forest World: The Monster's Jaw"
+    "Forest World" -- "Forest World: Underground"
+
+    "Forlorn Beach House" -- "Apartments"
+    "Forlorn Beach House" -- "Art Gallery"
+    "Forlorn Beach House" -- "Ecstasy World"
+    "Forlorn Beach House" -- "Realistic Beach"
+    "Forlorn Beach House" -- "Verdigris Garden"
+
+    "Fountain World" -- "Stingray Skies"
+
+    "Frozen Glade" -- "Glowing Stars World"
+
+    "Garden World" -- "Blue Sanctuary"
+    "Garden World" -- "Hospital"
+    "Garden World" -- "Inu-san's Psyche"
+    "Garden World" -- "Snowy Apartments"
+
+    "Geometry World" -- "Boy Effect"
+    "Geometry World" -- "Broken Faces Area"
+    "Geometry World" -- "Dark Museum"
+    
+    "Glitched Butterfly Sector" -- "Sierpinski Maze"
+
+    "Glowing Tree Path" -- "Oblique Hell"
+    
+    "Golden Sunset Estate" -- "Abandoned Campsite"
+    "Golden Sunset Estate" -- "Clock World"
+    "Golden Sunset Estate" -- "Kagami Mochi Mask"
+
+    "Graffiti Maze" -- "Stretch Effect"
+
+    "Graffiti Sector" -- "Tarnished Ship"
+
+    "Graveyard World" -- "Grave Effect"
+    "Graveyard World" -- "Hospital"
+    "Graveyard World" -- "Red Lily Lake"
+    
+    "Gray Road" -- "Sprout World"
+
+    "Green Neon World" -- "Construction Frame Building"
+    
+    "Handheld Game Pond" -- "Monochrome GB World: GB Well"
+
+    "Heart Pattern Pathway" -- "Scale Model Exhibit"
+    
+    "Heart World" -- "The Deciding Street"
+    "Heart World" -- "Valentine Land"
+    "Heart World" -- "Crossing Effect"
+
+    "Heian Era Village" -- "Misty Streets"[dir=forward]
+    "Heian Era Village" -- "The Ceiling"
+
+    "Highway" -- "Downfall Garden A"
+
+    "Home Within Nowhere" -- "Pure White Lands"
+    
+    "Hospital" -- "Graffiti Maze"
+    "Hospital" -- "Intestines Maze"
+    "Hospital" -- "Landolt Ring World"
+
+    "Hourglass Desert" -- "Hourglass Desert: Pyramid Maze" 
+
+    "Hourglass Desert: Pyramid Maze" -- "Wilderness"
+
+    "Infinite Pools" -- "Brutalist Complex"
+    "Infinite Pools" -- "Rune Dunes"
+
+    "Intestines Maze" -- "Blood World"
+    "Intestines Maze" -- "Dessert Fields"
+    "Intestines Maze" -- "Magnet Room: Zalgo's Room"[dir=back]
+    "Intestines Maze" -- "Netherworld"
+    "Intestines Maze" -- "Red City"
+    "Intestines Maze" -- "Valentine Mail"
+
+    "Kaleidoscope World" -- "Glowing Tree Path"
+
+    "Lamp Passage" -- "Sea of Clouds"
+
+    "Lamp Puddle World" -- "Drift Passage"
+    "Lamp Puddle World" -- "Lamp Puddle World: Fortune Teller's Tent"
+    "Lamp Puddle World" -- "Paint Splatter Park"
+
+    "Lamplit Stones" -- "Adabana Gardens"
+    "Lamplit Stones" -- "Field of Cosmos"
+
+    "Landolt Ring World" -- "Sauna Corridors"
+
+    "Lavender Office" -- "City of Revival"
+    "Lavender Office" -- "Ecstasy World"
+    "Lavender Office" -- "The Magic Nexus"
+    "Lavender Office" -- "Verdant Nexus"
+    
+    "Lemonade Edifice" -- "Bodacious Rotation Station"
+    "Lemonade Edifice" -- "Theatre World"
+
+    "Library" -- "Tricolor Room (Picture Book)"
+
+    "Lotus Waters" -- "Seaside Village"
+
+    "Magenta Village" -- "Playbox Passage"
+    
+    "Maple Forest" -- "Star Hub"
+
+    "Marijuana Goddess World" -- "Color Cubes World"
+    "Marijuana Goddess World" -- "Dark Room"
+
+    "Marshmallow Shallows" -- "3D Underworld"
+
+    "Megalith Grove" -- "Suspended Steamworks"
+
+    "Memory Town" -- "Endless Apartments"
+
+    "Mini Maze" -- "Bathhouse"
+    "Mini Maze" -- "FC Basement"
+
+    "Misty Streets" -- "Infinite Pools"
+    
+    "Monochrome Feudal Japan: Monochrome Path" -- "Monochrome Feudal Japan"
+
+    "Monochrome GB World" -- "Menu Theme #46"
+    "Monochrome GB World" -- "Monochrome GB World: GB Tunnel"
+    "Monochrome GB World" -- "Monochrome GB World: GB Well"
+    
+    "Monochrome GB World: GB Tunnel" -- "Menu Theme #40"
+
+    "Monochrome Street" -- "Animated Hub"
+    "Monochrome Street" -- "Shinto Shrine"
+
+    "Morning Suburbs" -- "Cerulean School"
+
+    "Mourning Void" -- "Dream Route"
+
+    "Mushroom World" -- "Bug Maze"
+    "Mushroom World" -- "Elvis Masada's Place"
+
+    "Nail World" -- "Red Nail Passage"
+    "Nail World" -- "Theatre World"
+
+    "Nazca Valley" -- "Digital Alley"
+    "Nazca Valley" -- "Elemental Caves"
+    "Nazca Valley" -- "Fish Oil Swamp"
+    "Nazca Valley" -- "Honeybee Laboratory"
+    "Nazca Valley" -- "Jigsaw Junction"
+    "Nazca Valley" -- "Mackerel Desert"
+    "Nazca Valley" -- "Pumpkin City"
+    "Nazca Valley" -- "Rainbow Pottery Zone"
+    "Nazca Valley" -- "Snowy Suburbs"
+    
+    "Neon Candle World" -- "Cloud Tops"
+
+    "Netherworld" -- "Tatami Room"
+
+    "Night World" -- "Crossing Forest"
+    "Night World" -- "Heart Maze"
+    "Night World" -- "Lavender Office"
+    "Night World" -- "Night World: Twitching Child"
+
+    "Obentou World" -- "Fish World"
+
+    "Oblique Hell: First-Person Maze" -- "Glitched Butterfly Sector"
+
+    "Oblique Hell" -- "Critter Village"
+
+    "Orange Badlands" -- "Donut Hole World"
+    "Orange Badlands" -- "Sunrise Road"
+
+    "Ornamental Plains" -- "Birch Forest"
+    "Ornamental Plains" -- "Rubber Duck Islands"
+    
+    "Overgrown Gate" -- "Tulip Lamp World"
+
+    "Ox Horn Plaza" -- "Binding Site"
+
+    "Paint Splatter Park" -- "Magenta Village"
+
+    "Pin Cushion Vineyard" -- "Autumn Pastel Plains"
+    "Pin Cushion Vineyard" -- "Blue Palm Road"
+    
+    "Playing Card Dungeon" -- "Maple Forest"
+
+    "Pointing Labyrinth" -- "Serpent Ruins A"
+    
+    "Pollution District" -- "Scale Model Exhibit"
+    "Pollution District" -- "Menu Theme #64"
+    
+    "Portrait Purgatory" -- "Pop Revoir"
+    "Portrait Purgatory" -- "Poseidon Plaza"
+    "Portrait Purgatory" -- "Reverie Book Piles"
+    "Portrait Purgatory" -- "Sakura Forest"
+
+    "Pudding World" -- "Orange Badlands"
+    "Pudding World" -- "Soy Basket World"
+
+    "Pure White Lands" -- "Lamplit Stones"
+
+    "Purple World" -- "Black Building"
+    "Purple World" -- "Highway"
+    "Purple World" -- "Red Monastery"
+    "Purple World" -- "Shield Owl World"
+    
+    "Radiant Ruins" -- "Bottom Garden"
+
+    "Realistic Beach" -- "The Docks"
+
+    "Red City" -- "Head Wasteland"
+
+    "Red Lily Lake" -- "Red Sky Cliff: Splash Streetway"
+    
+    "Red Nail Passage" -- "Window Room"
+
+    "Red Monastery" -- "T-Folk World"
+
+    "Red Sewers" -- "Marshmallow Shallows"
+
+    "Red Sky Cliff: Splash Streetway" -- "Constellation World"
+   
+    "Red Streetlight World" -- "Bridged Swamp Islands"
+    "Red Streetlight World" -- "Gray Road"
+    "Red Streetlight World" -- "Magnet Room"
+    "Red Streetlight World" -- "Monochrome Street"
+    "Red Streetlight World" -- "Reef Maze"
+
+    "Reef Maze" -- "Hall of Memories"
+    "Reef Maze" -- "Haunted Laboratory"
+    "Reef Maze" -- "Lost Forest"
+
+    "Robotic Slaves Tunnel" -- "Handheld Game Pond"
+
+    "Rock World" -- "Entomophobia Realm"
+    "Rock World" -- "Theatre World"
+    
+    "Rose Church" -- "Menu Theme #12"
+
+    "Rubber Duck Islands" -- "Fountain World"
+
+    "Sakura Forest" -- "Shinto Shrine"
+
+    "Scattered Sky Fields" -- "Menu Theme #72"
+
+    "Scenic Outlook" -- "Insect Effect"
+
+    "Seaside Village" -- "Dark Warehouse"
+
+    "Sepia Clouds World" -- "Sea of Clouds"
+
+    "Serpent Ruins A" -- "Mourning Void"[dir=forward]
+
+    "Shield Owl World" -- "Acerola World"
+    "Shield Owl World" -- "Bodacious Rotation Station"
+    "Shield Owl World" -- "NES Glitch Tunnel"
+
+    "Shinto Shrine" -- "Maiko Effect"
+    "Shinto Shrine" -- "The Circus"
+
+    "Sierpinski Maze" -- "Virtual City"
+
+    "Sign World" -- "Construction Sign World"
+    "Sign World" -- "Teleport Maze"
+
+    "Snowy Apartments" -- "Underground Garage"
+
+    "Spaceship" -- "Pollution District"
+    
+    "Spear Tribe World" -- "Maniacal Faces Zone"
+
+    "Spelling Room" -- "Sepia Clouds World"
+
+    "Spiked Fence Garden" -- "Cliffside Woods"
+
+    "Spore Forest" -- "Spiked Fence Garden"
+
+    "Sprout World" -- "Dream Venus"
+    "Sprout World" -- "Green Neon World"
+
+    "Streetlight Docks" -- "Marshmallow Shallows"[dir=forward]
+
+    "Sunrise Road" -- "Morning Suburbs"
+
+    "Suspended Steamworks" -- "Candlelight Void"
+    
+    "Teddy Bear Land" -- "Binding Site"
+    "Teddy Bear Land" -- "Window Room"[dir=back]
+
+    "T-Folk World" -- "Giant Desktop"
+
+    "The Deciding Street" -- "Netherworld"
+    "The Deciding Street" -- "Dizzy Spirals World"
+    "The Deciding Street" -- "The Deciding Street: The Bazaar"
+    
+    "The Deciding Street: The Bazaar" -- "Twintails Effect"
+    
+    "The Hand Hub" -- "Dark Bunker"
+    "The Hand Hub" -- "Shinto Shrine"
+
+    "The Magic Nexus" -- "Azure Arm Land"
+    "The Magic Nexus" -- "Cloud Haven"
+    "The Magic Nexus" -- "Construction Sign World"
+    "The Magic Nexus" -- "Fire World"
+    "The Magic Nexus" -- "Knit Plains"
+    "The Magic Nexus" -- "Musical Note Maze"
+    "The Magic Nexus" -- "Playbox Passage"
+    "The Magic Nexus" -- "Rice Paddy"
+    "The Magic Nexus" -- "Tiled Canvas"
+    "The Magic Nexus" -- "Tranquil Park"
+    "The Magic Nexus" -- "Vantablack Isles"
+    "The Magic Nexus" -- "White Pillar Docks"
+    
+    "The Void" -- "Black Ink World"
+    "The Void" -- "Cosmic Cube World"
+
+    "Theatre World"  -- "Donut Hole World" 
+    "Theatre World" -- "Neon Candle World"
+    "Theatre World" -- "Spelling Room"
+    
+    "Tiled Canvas" -- "Playing Card Dungeon"
+
+    "Toy World" -- "Day and Night Towers"
+    "Toy World" -- "Wooden Block World"
+
+    "Tricolor Room (Picture Book)" -- "Piano Room"
+    
+    "Tulip Lamp World" -- "Rose Church"
+
+    "Turqoise Cityscape" -- "Menu Theme #71"
+    "Turqoise Cityscape" -- "Scattered Sky Fields"
+
+    "Underground Garage" -- "Apartments" 
+
+    "Underwater Forest" -- "Stony Buildings"
+
+    "Urotsuki's Dream Apartments" -- "Butcher Hollow"
+    "Urotsuki's Dream Apartments" -- "Check-Disk Nexus"
+    "Urotsuki's Dream Apartments" -- "Dream Apartment Telephone"
+    "Urotsuki's Dream Apartments" -- "Forest Pier"[dir=forward]
+    "Urotsuki's Dream Apartments" -- "Magnet Room"
+    
+    "Usugurai Residence" -- "Cigarette World"
+    "Usugurai Residence" -- "Wishing Stones"
+    
+    "Valentine Land" -- "Elvis Masada's Place"
+    "Valentine Land" -- "Sign World"
+
+    "Valentine Mail" -- "Tiled Canvas"
+
+    "Vase World" -- "Burial Desert"
+
+    "Verdant Nexus" -- "Construction Sign World"
+    "Verdant Nexus" -- "Vantablack Isles"
+    "Verdant Nexus" -- "White Pillar Docks"
+
+    "Virtual City" -- "Rainy Apartments"
+    "Virtual City" -- "Reflecting Electron Zone"
+
+    "Waterlogged Flats" -- "Ox Horn Plaza"
+    
+    "Wilderness" -- "Head Wasteland" 
+    
+    "Wind Tunnel" -- "Deserted Pier"
+    "Wind Tunnel" -- "Radiant Ruins"
+    
+    "Wishing Stones" -- "Underwater Forest"
+
+    "Wooden Block World" -- "Chicken World"
+
+    "Worksite" -- "Balloon Park"
+}
