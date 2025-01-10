@@ -89,6 +89,8 @@ graph G
 
     "Adabana Gardens" -- "Bubble World"
     "Adabana Gardens" -- "Field of Cosmos"
+    
+    "Amoeba Woods" -- "Foggy Red Street"
 
     "Animated Hub" -- "Art Exposition"
     "Animated Hub" -- "Concrete World"
@@ -169,6 +171,7 @@ graph G
     "Cinder Statue Heaven" -- "Graffiti Sector"
     "Cinder Statue Heaven" -- "Stalker Alley"
 
+    "Cipher Keyboard" -- "Amoeba Woods"
     "Cipher Keyboard" -- "Spaceship"
     "Cipher Keyboard" -- "The Void"
 
@@ -252,6 +255,8 @@ graph G
 
     "Flying Fish World" -- "Animated Hub"
     "Flying Fish World" -- "Urban Street Area"
+    
+    "Foggy Red Street" -- "Sepia Factory"
     
     "Forest Pier" -- "Abandoned Factory"
 
