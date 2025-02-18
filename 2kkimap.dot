@@ -38,6 +38,8 @@ graph G
     "Menu Theme #71"[shape=box]
     "Menu Theme #72"[shape=box]
 
+    "Wallpaper #288"[shape=box]
+
     "Dream Apartment Telephone"[shape=trapezium]
     
     //Connections :D
@@ -142,6 +144,7 @@ graph G
 
     "Bridged Swamp Islands" -- "Heian Era Village"
 
+    "Broken Faces Area" -- "Dream Park"
     "Broken Faces Area" -- "Fairy Tale Woods"
     "Broken Faces Area" -- "Floating Red Tiles World"
     "Broken Faces Area" -- "Vase World"
@@ -151,6 +154,7 @@ graph G
     "Bubble World" -- "Red Sewers"
 
     "Bug Maze" -- "Scenic Outlook"
+    "Bug Maze" -- "Sign World"
 
     "Burial Desert" -- "Industrial Towers"
 
@@ -164,12 +168,16 @@ graph G
     "Check-Disk Nexus" -- "Spiral Sign Abyss"
 
     "Chicken World" -- "Nazca Valley"
+
+    "Christmas World" -- "Sherbet Snowfield"
     
     "Cigarette World" -- "Playing Card Dungeon"
     "Cigarette World" -- "Scrapyard"
 
     "Cinder Statue Heaven" -- "Graffiti Sector"
     "Cinder Statue Heaven" -- "Stalker Alley"
+
+    "Cipher Fog World" -- "False Guardian's Trials"
 
     "Cipher Keyboard" -- "Amoeba Woods"
     "Cipher Keyboard" -- "Spaceship"
@@ -227,6 +235,9 @@ graph G
 
     "Dream Mars" -- "Lotus Waters"
 
+    "Dream Park" -- "Sixth Terminal"
+    "Dream Park" -- "Wallpaper #288"
+
     "Dream Venus" -- "Dream Mars"
 
     "Drift Passage" -- "Gray Road"
@@ -253,6 +264,8 @@ graph G
 
     "Floating Stones World" -- "Sprout World"
 
+    "Florist" -- "Greenhouse"
+
     "Flying Fish World" -- "Animated Hub"
     "Flying Fish World" -- "Urban Street Area"
     
@@ -276,10 +289,12 @@ graph G
 
     "Frozen Glade" -- "Glowing Stars World"
 
+    "Garden World" -- "Blue Forest"
     "Garden World" -- "Blue Sanctuary"
     "Garden World" -- "Hospital"
     "Garden World" -- "Inu-san's Psyche"
     "Garden World" -- "Snowy Apartments"
+    "Garden World" -- "The Hand Hub"
 
     "Geometry World" -- "Boy Effect"
     "Geometry World" -- "Broken Faces Area"
@@ -300,15 +315,19 @@ graph G
     "Graveyard World" -- "Grave Effect"
     "Graveyard World" -- "Hospital"
     "Graveyard World" -- "Red Lily Lake"
-    
+   
+    "Gray Road" -- "Florist"
     "Gray Road" -- "Sprout World"
 
     "Green Neon World" -- "Construction Frame Building"
     
     "Handheld Game Pond" -- "Monochrome GB World: GB Well"
+    
+    "Haniwa Temple" -- "Dream Park"
 
     "Heart Pattern Pathway" -- "Scale Model Exhibit"
-    
+   
+    "Heart World" -- "Cipher Fog World"
     "Heart World" -- "The Deciding Street"
     "Heart World" -- "Valentine Land"
     "Heart World" -- "Crossing Effect"
@@ -460,6 +479,7 @@ graph G
     "Pure White Lands" -- "Lamplit Stones"
 
     "Purple World" -- "Black Building"
+    "Purple World" -- "Garden World"
     "Purple World" -- "Highway"
     "Purple World" -- "Red Monastery"
     "Purple World" -- "Shield Owl World"
@@ -511,6 +531,8 @@ graph G
 
     "Serpent Ruins A" -- "Mourning Void"[dir=forward]
 
+    "False Guardian's Trials" -- "Sherbet Snowfield"
+
     "Shield Owl World" -- "Acerola World"
     "Shield Owl World" -- "Bodacious Rotation Station"
     "Shield Owl World" -- "NES Glitch Tunnel"
@@ -521,6 +543,7 @@ graph G
     "Sierpinski Maze" -- "Virtual City"
 
     "Sign World" -- "Construction Sign World"
+    "Sign World" -- "Haniwa Temple"
     "Sign World" -- "Teleport Maze"
 
     "Snowy Apartments" -- "Underground Garage"
@@ -555,6 +578,7 @@ graph G
     
     "The Deciding Street: The Bazaar" -- "Twintails Effect"
     
+    "The Hand Hub" -- "Christmas World"
     "The Hand Hub" -- "Dark Bunker"
     "The Hand Hub" -- "Shinto Shrine"
 
