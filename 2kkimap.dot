@@ -325,6 +325,8 @@ graph G
     
     "Haniwa Temple" -- "Dream Park"
 
+    "Heart Maze" -- "Miso Soup Dungeon"
+
     "Heart Pattern Pathway" -- "Scale Model Exhibit"
    
     "Heart World" -- "Cipher Fog World"
@@ -346,6 +348,8 @@ graph G
     "Hourglass Desert" -- "Hourglass Desert: Pyramid Maze" 
 
     "Hourglass Desert: Pyramid Maze" -- "Wilderness"
+
+    "Ice Block World" -- "Witch Heaven"
 
     "Infinite Pools" -- "Brutalist Complex"
     "Infinite Pools" -- "Rune Dunes"
@@ -397,6 +401,8 @@ graph G
 
     "Mini Maze" -- "Bathhouse"
     "Mini Maze" -- "FC Basement"
+
+    "Miso Soup Dungeon" -- "Pink Life World"
 
     "Misty Streets" -- "Infinite Pools"
     
@@ -461,6 +467,10 @@ graph G
 
     "Pin Cushion Vineyard" -- "Autumn Pastel Plains"
     "Pin Cushion Vineyard" -- "Blue Palm Road"
+    "Pin Cushion Vineyard" -- "Pop Revoir"
+
+    "Pink Life World" -- "Warzone"
+    "Pink Life World" -- "Witch Heaven"
     
     "Playing Card Dungeon" -- "Maple Forest"
 
@@ -468,6 +478,8 @@ graph G
     
     "Pollution District" -- "Scale Model Exhibit"
     "Pollution District" -- "Menu Theme #64"
+
+    "Pop Revoir" -- "Rotten Sea"
     
     "Portrait Purgatory" -- "Pop Revoir"
     "Portrait Purgatory" -- "Poseidon Plaza"
@@ -641,6 +653,8 @@ graph G
 
     "Virtual City" -- "Rainy Apartments"
     "Virtual City" -- "Reflecting Electron Zone"
+
+    "Warzone" -- "Ice Block World"
 
     "Waterlogged Flats" -- "Ox Horn Plaza"
     
