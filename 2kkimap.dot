@@ -349,8 +349,6 @@ graph G
 
     "Hourglass Desert: Pyramid Maze" -- "Wilderness"
 
-    "Ice Block World" -- "Witch Heaven"
-
     "Infinite Pools" -- "Brutalist Complex"
     "Infinite Pools" -- "Rune Dunes"
 
@@ -664,6 +662,8 @@ graph G
     "Wind Tunnel" -- "Radiant Ruins"
     
     "Wishing Stones" -- "Underwater Forest"
+
+    "Witch Heaven" -- "Ice Block World"
 
     "Wooden Block World" -- "Chicken World"
     "Wooden Block World" -- "Pancake World"
