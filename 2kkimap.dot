@@ -424,6 +424,7 @@ graph G
     "Nazca Valley" -- "Digital Alley"
     "Nazca Valley" -- "Elemental Caves"
     "Nazca Valley" -- "Fish Oil Swamp"
+    "Nazca Valley" -- "Grilled Octopus World"
     "Nazca Valley" -- "Honeybee Laboratory"
     "Nazca Valley" -- "Jigsaw Junction"
     "Nazca Valley" -- "Mackerel Desert"
@@ -651,6 +652,7 @@ graph G
     "Wishing Stones" -- "Underwater Forest"
 
     "Wooden Block World" -- "Chicken World"
+    "Wooden Block World" -- "Pancake World"
 
     "Worksite" -- "Balloon Park"
 }
