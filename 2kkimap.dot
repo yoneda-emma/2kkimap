@@ -29,6 +29,8 @@ graph G
     "Maiko Effect"[shape=box]
 
     "Kagami Mochi Mask"[shape=note]
+    "Shop Ruins Outfits"[shape=note]
+    "8-bit Sprite"[shape=note]
 
     "Menu Theme #12"[shape=box]
     "Menu Theme #30"[shape=box]
@@ -128,6 +130,8 @@ graph G
     "Birch Forest" -- "Magnet Room: Zalgo's Room"
 
     "Black Ink World" -- "Menu Theme #30"
+
+    "Blood Cell Sea" -- "Stuffed Dullahan World"
 
     "Blood Rose Canal" -- "Memory Town"[dir=forward]
 
@@ -249,6 +253,8 @@ graph G
 
     "Entomophobia Realm" -- "Spore Forest"
 
+    "Erythrocyte Maze" -- "Visceral Cavern"
+
     "Fall Shoal" -- "Lamp Passage"
 
     "Fairy Tale Woods" -- "Scenic Outlook"
@@ -264,7 +270,10 @@ graph G
 
     "Floating Stones World" -- "Sprout World"
 
+    "Florist" -- "Cocktail Lounge"
     "Florist" -- "Greenhouse"
+    "Florist" -- "Pleasure Street"
+    "Florist" -- "Shop Ruins"
 
     "Flying Fish World" -- "Animated Hub"
     "Flying Fish World" -- "Urban Street Area"
@@ -299,6 +308,7 @@ graph G
     "Geometry World" -- "Boy Effect"
     "Geometry World" -- "Broken Faces Area"
     "Geometry World" -- "Dark Museum"
+    "Geometry World" -- "Intestines Maze"
     
     "Glitched Butterfly Sector" -- "Sierpinski Maze"
 
@@ -330,6 +340,7 @@ graph G
     "Heart Pattern Pathway" -- "Scale Model Exhibit"
    
     "Heart World" -- "Cipher Fog World"
+    "Heart World" -- "Spherical Space Labyrinth"
     "Heart World" -- "The Deciding Street"
     "Heart World" -- "Valentine Land"
     "Heart World" -- "Crossing Effect"
@@ -399,6 +410,9 @@ graph G
 
     "Mini Maze" -- "Bathhouse"
     "Mini Maze" -- "FC Basement"
+
+    "Miraculous Waters" -- "Erythrocyte Maze"
+    "Miraculous Waters" -- "Robotic Institution"
 
     "Miso Soup Dungeon" -- "Pink Life World"
 
@@ -471,6 +485,8 @@ graph G
     "Pink Life World" -- "Witch Heaven"
     
     "Playing Card Dungeon" -- "Maple Forest"
+
+    "Pleasure Street" -- "Nerium Lab"
 
     "Pointing Labyrinth" -- "Serpent Ruins A"
     
@@ -550,6 +566,12 @@ graph G
 
     "Shinto Shrine" -- "Maiko Effect"
     "Shinto Shrine" -- "The Circus"
+   
+    "Shop Ruins" -- "Blood Cell Sea"
+    "Shop Ruins" -- "Cocktail Lounge"
+    "Shop Ruins" -- "Realm of Gluttony"
+    "Shop Ruins" -- "Shop Ruins Outfits"
+    "Shop Ruins" -- "8-bit Sprite"
 
     "Sierpinski Maze" -- "Virtual City"
 
@@ -564,6 +586,8 @@ graph G
     "Spear Tribe World" -- "Maniacal Faces Zone"
 
     "Spelling Room" -- "Sepia Clouds World"
+
+    "Spherical Space Labyrinth" -- "Miraculous Waters"
 
     "Spiked Fence Garden" -- "Cliffside Woods"
 
@@ -651,6 +675,8 @@ graph G
 
     "Virtual City" -- "Rainy Apartments"
     "Virtual City" -- "Reflecting Electron Zone"
+
+    "Visceral Cavern" -- "Tartaric Abyss"
 
     "Warzone" -- "Ice Block World"
 
