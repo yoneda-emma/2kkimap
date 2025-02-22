@@ -136,6 +136,8 @@ graph G
     "Blood Rose Canal" -- "Memory Town"[dir=forward]
 
     "Blue Eyes World" -- "Archery Cavalry World"
+    "Blue Eyes World" -- "Flowerpot Outlands"
+    "Blue Eyes World" -- "Restored Character World"
 
     "Blue Palm Road" -- "White Pillar Docks"
 
@@ -275,6 +277,10 @@ graph G
     "Florist" -- "Pleasure Street"
     "Florist" -- "Shop Ruins"
 
+    "Flowerpot Outlands" -- "Colorless Rose Garden"
+    "Flowerpot Outlands" -- "Gray Memory"
+    "Flowerpot Outlands" -- "Planter Passage"
+
     "Flying Fish World" -- "Animated Hub"
     "Flying Fish World" -- "Urban Street Area"
     
@@ -393,6 +399,9 @@ graph G
 
     "Library" -- "Tricolor Room (Picture Book)"
 
+    "Loquat Orchard" -- "Polygon Mazescape"
+    "Loquat Orchard" -- "Somber Waterfront"
+
     "Lotus Waters" -- "Seaside Village"
 
     "Magenta Village" -- "Playbox Passage"
@@ -435,6 +444,7 @@ graph G
 
     "Mushroom World" -- "Bug Maze"
     "Mushroom World" -- "Elvis Masada's Place"
+    "Mushroom World" -- "Forlorn Beach House"
 
     "Nail World" -- "Red Nail Passage"
     "Nail World" -- "Theatre World"
@@ -477,12 +487,16 @@ graph G
 
     "Paint Splatter Park" -- "Magenta Village"
 
+    "Pen Passage" -- "Somber Waterfront"
+
     "Pin Cushion Vineyard" -- "Autumn Pastel Plains"
     "Pin Cushion Vineyard" -- "Blue Palm Road"
     "Pin Cushion Vineyard" -- "Pop Revoir"
 
     "Pink Life World" -- "Warzone"
     "Pink Life World" -- "Witch Heaven"
+
+    "Planter Passage" -- "Somber Establishment"
     
     "Playing Card Dungeon" -- "Maple Forest"
 
@@ -537,6 +551,9 @@ graph G
     "Reef Maze" -- "Haunted Laboratory"
     "Reef Maze" -- "Lost Forest"
 
+    "Restored Character World" -- "Pale Brick Basement"
+    "Restored Character World" -- "Pen Passage"
+
     "Robotic Slaves Tunnel" -- "Handheld Game Pond"
 
     "Rock World" -- "Entomophobia Realm"
@@ -545,6 +562,8 @@ graph G
     "Rose Church" -- "Menu Theme #12"
 
     "Rubber Duck Islands" -- "Fountain World"
+
+    "Ruby Forest" -- "Somber Waterfront"
 
     "Sakura Forest" -- "Shinto Shrine"
 
@@ -580,6 +599,10 @@ graph G
     "Sign World" -- "Teleport Maze"
 
     "Snowy Apartments" -- "Underground Garage"
+
+    "Somber Establishment" -- "Ruby Forest"
+    "Somber Establishment" -- "Sepia Clouds World"
+    "Somber Establishment" -- "Submerged Signs World"
 
     "Spaceship" -- "Pollution District"
     
@@ -672,6 +695,8 @@ graph G
     "Verdant Nexus" -- "Construction Sign World"
     "Verdant Nexus" -- "Vantablack Isles"
     "Verdant Nexus" -- "White Pillar Docks"
+
+    "Verdigris Garden" -- "Nightfall Complex"
 
     "Virtual City" -- "Rainy Apartments"
     "Virtual City" -- "Reflecting Electron Zone"
