@@ -138,6 +138,9 @@ graph G
     "Blue Eyes World" -- "Archery Cavalry World"
     "Blue Eyes World" -- "Flowerpot Outlands"
     "Blue Eyes World" -- "Restored Character World"
+	
+    "Blue Forest" -- "Art Gallery"
+    "Blue Forest" -- "School"
 
     "Blue Palm Road" -- "White Pillar Docks"
 
@@ -570,6 +573,8 @@ graph G
     "Scattered Sky Fields" -- "Menu Theme #72"
 
     "Scenic Outlook" -- "Insect Effect"
+
+    "School" -- "Teddy Bear Land"
 
     "Seaside Village" -- "Dark Warehouse"
 
