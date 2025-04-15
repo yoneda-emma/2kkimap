@@ -93,6 +93,8 @@ graph G
 
     "Adabana Gardens" -- "Bubble World"
     "Adabana Gardens" -- "Field of Cosmos"
+
+    "Acoustic Lounge" -- "Windowed Plains"
     
     "Amoeba Woods" -- "Foggy Red Street"
 
@@ -121,6 +123,8 @@ graph G
     "Bacteria World" -- "Blue Shape Zone"
     "Bacteria World" -- "Color Capital"
 
+    "Bilge Puddle World" -- "Snow Black"
+
     "Binding Site" -- "Auburn Villa"
     "Binding Site" -- "Grayscale Bookshelves"
     "Binding Site" -- "Violent Fruit District"
@@ -134,6 +138,10 @@ graph G
     "Blood Cell Sea" -- "Stuffed Dullahan World"
 
     "Blood Rose Canal" -- "Memory Town"[dir=forward]
+
+    "Blue Black Maze" -- "Bottomless Woods"
+    "Blue Black Maze" -- "RGB Spectral Passage"
+    "Blue Black Maze" -- "Sheltered Drains"
 
     "Blue Eyes World" -- "Archery Cavalry World"
     "Blue Eyes World" -- "Flowerpot Outlands"
@@ -151,12 +159,18 @@ graph G
     "Bottom Garden" -- "Overgrown Gate"
     "Bottom Garden" -- "Town Maze"
 
+    "Bottomless Woods" -- "Irregular Mosaic World"
+
     "Bridged Swamp Islands" -- "Heian Era Village"
 
     "Broken Faces Area" -- "Dream Park"
     "Broken Faces Area" -- "Fairy Tale Woods"
     "Broken Faces Area" -- "Floating Red Tiles World"
     "Broken Faces Area" -- "Vase World"
+
+    "Broken Shoal" -- "Blinking Docks"
+    "Broken Shoal" -- "Blue Black Maze"
+    "Broken Shoal" -- "Fragmented Station"
 
     "Brutalist Complex" -- "Cookie Haven"
 
@@ -196,7 +210,8 @@ graph G
 
     "Clock World" -- "Dark Bunker"
     "Clock World" -- "Flying Fish World"
-    
+   
+    "Cog Maze" -- "Acoustic Lounge"
     "Cog Maze" -- "Forest Pier"[dir=forward]
 
     "Collaged Charcoal World" -- "Fall Shoal"
@@ -255,6 +270,8 @@ graph G
     "Ecstasy World" -- "Sky Kingdom"
 
     "Elvis Masada's Place" -- "Forlorn Beach House"
+
+    "Encrypted Laboratory" -- "Broken Shoal"
 
     "Entomophobia Realm" -- "Spore Forest"
 
@@ -378,6 +395,8 @@ graph G
     "Intestines Maze" -- "Netherworld"
     "Intestines Maze" -- "Red City"
     "Intestines Maze" -- "Valentine Mail"
+
+    "Irregular Mosaic World" -- "Snow Black"
 
     "Kaleidoscope World" -- "Glowing Tree Path"
 
@@ -584,6 +603,8 @@ graph G
 
     "False Guardian's Trials" -- "Sherbet Snowfield"
 
+    "Sheltered Drains" -- "Bilge Puddle World"
+
     "Shield Owl World" -- "Acerola World"
     "Shield Owl World" -- "Bodacious Rotation Station"
     "Shield Owl World" -- "NES Glitch Tunnel"
@@ -631,6 +652,7 @@ graph G
     "Suspended Steamworks" -- "Candlelight Void"
     
     "Teddy Bear Land" -- "Binding Site"
+    "Teddy Bear Land" -- "The Docks"
     "Teddy Bear Land" -- "Window Room"[dir=back]
 
     "T-Folk World" -- "Giant Desktop"
@@ -716,6 +738,8 @@ graph G
     
     "Wind Tunnel" -- "Deserted Pier"
     "Wind Tunnel" -- "Radiant Ruins"
+
+    "Windowed Plains" -- "Encrypted Labyrinth"
     
     "Wishing Stones" -- "Underwater Forest"
 
