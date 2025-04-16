@@ -118,6 +118,8 @@ graph G
 
     "Astral World: Nightshade Corridor" -- "Obentou World"
 
+    "Autumn Park" -- "Gumball World"
+
     "Autumn Pastel Plains" -- "Collaged Charcoal World"
 
     "Bacteria World" -- "Blue Shape Zone"
@@ -132,6 +134,7 @@ graph G
     "Binding Site" -- "Cement World"
 
     "Birch Forest" -- "Magnet Room: Zalgo's Room"
+    "Birch Forest" -- "Oriental Lake"
 
     "Black Ink World" -- "Menu Theme #30"
 
@@ -255,6 +258,8 @@ graph G
 
     "Downfall Garden A" -- "Crimson Chair Area"
 
+    "Drains Theater" -- "Autumn Park"
+
     "Dream Apartment Telephone" -- "Dark Warehouse"
 
     "Dream Mars" -- "Lotus Waters"
@@ -271,7 +276,9 @@ graph G
 
     "Elvis Masada's Place" -- "Forlorn Beach House"
 
-    "Encrypted Laboratory" -- "Broken Shoal"
+    "Emerald Cave" -- "Mountainous Badlands"
+
+    "Encrypted Labyrinth" -- "Broken Shoal"
 
     "Entomophobia Realm" -- "Spore Forest"
 
@@ -324,6 +331,8 @@ graph G
 
     "Frozen Glade" -- "Glowing Stars World"
 
+    "Gachapon Plains" -- "Bracken Plains"
+
     "Garden World" -- "Blue Forest"
     "Garden World" -- "Blue Sanctuary"
     "Garden World" -- "Hospital"
@@ -356,6 +365,8 @@ graph G
     "Gray Road" -- "Sprout World"
 
     "Green Neon World" -- "Construction Frame Building"
+
+    "Gumball World" -- "Gachapon Plains"
     
     "Handheld Game Pond" -- "Monochrome GB World: GB Well"
     
@@ -462,6 +473,8 @@ graph G
 
     "Morning Suburbs" -- "Cerulean School"
 
+    "Mountainous Badlands" -- "Gachapon Plains"
+
     "Mourning Void" -- "Dream Route"
 
     "Mushroom World" -- "Bug Maze"
@@ -500,7 +513,11 @@ graph G
     "Orange Badlands" -- "Donut Hole World"
     "Orange Badlands" -- "Sunrise Road"
 
+    "Oriental Lake" -- "Clay Statue World"
+    "Oriental Lake" -- "Emerald Cave"
+
     "Ornamental Plains" -- "Birch Forest"
+    "Ornamental Plains" -- "Drains Theater"
     "Ornamental Plains" -- "Rubber Duck Islands"
     
     "Overgrown Gate" -- "Tulip Lamp World"
