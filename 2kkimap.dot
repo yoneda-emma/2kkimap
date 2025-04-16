@@ -31,9 +31,15 @@ graph G
     "Maiko Effect"[shape=box]
 
     "Kagami Mochi Mask"[shape=note]
+    "Light Lady Mask"[shape=note]
+    "Physical Drink Mask"[shape=note]
     "Shop Ruins Outfits"[shape=note]
     "8-bit Sprite"[shape=note]
 
+    "Menu Theme #6"[shape=box]
+    "Menu Theme #7"[shape=box]
+    "Menu Theme #8"[shape=box]
+    "Menu Theme #9"[shape=box]
     "Menu Theme #12"[shape=box]
     "Menu Theme #30"[shape=box]
     "Menu Theme #38"[shape=box]
@@ -89,8 +95,11 @@ graph G
     "3D Underworld" -- "Kaleidoscope World"
     "3D Underworld" -- "Streetlight Docks"
 
+    "Abandoned Campsite" -- "Crow's Nest"
+    "Abandoned Campsite" -- "Fruit Carpet Plaza"
     "Abandoned Campsite" -- "Mourning Void"[dir=forward]
     "Abandoned Campsite" -- "Pointing Labyrinth"
+    "Abandoned Campsite" -- "Light Lady Mask"
     
     "Abandoned Factory" -- "Arc de Pillar World"
     "Abandoned Factory" -- "Wind Tunnel"
@@ -146,6 +155,9 @@ graph G
     "Birch Forest" -- "Oriental Lake"
 
     "Black Ink World" -- "Menu Theme #30"
+
+    "Bleak Future" -- "Menu Theme #6"
+    "Bleak Future" -- "Menu Theme #7"
 
     "Blood Cell Sea" -- "Stuffed Dullahan World"
 
@@ -333,12 +345,15 @@ graph G
     "Foggy Red Street" -- "Sepia Factory"
     
     "Forest Pier" -- "Abandoned Factory"
+    "Forest Pier" -- "Hidden Shoal"
+    "Forest Pier" -- "Menu Theme #9"
 
     "Forest World" -- "Astral World"
     "Forest World" -- "Chocolate World"
     "Forest World" -- "Golden Sunset Estate"
     "Forest World" -- "Forest World: The Monster's Jaw"
     "Forest World" -- "Forest World: Underground"
+    "Physical Drink Mask"
 
     "Forlorn Beach House" -- "Apartments"
     "Forlorn Beach House" -- "Art Gallery"
@@ -348,6 +363,8 @@ graph G
     "Fountain World" -- "Stingray Skies"
 
     "Frozen Glade" -- "Glowing Stars World"
+
+    "Fruit Carpet Plaza" -- "Pointing Labyrinth"
 
     "Gachapon Plains" -- "Bracken Plains"
 
@@ -402,6 +419,8 @@ graph G
 
     "Heian Era Village" -- "Misty Streets"[dir=forward]
     "Heian Era Village" -- "The Ceiling"
+
+    "Hidden Shoal" -- "Menu Theme #8"
 
     "Highway" -- "Downfall Garden A"
 
@@ -742,9 +761,10 @@ graph G
 
     "Underwater Forest" -- "Stony Buildings"
 
+    "Urotsuki's Dream Apartments" -- "Bleak Future"
     "Urotsuki's Dream Apartments" -- "Butcher Hollow"
     "Urotsuki's Dream Apartments" -- "Check-Disk Nexus"
-    //"Urotsuki's Dream Apartments" -- "Dream Apartment Telephone"
+    "Urotsuki's Dream Apartments" -- "Dream Apartment Telephone"
     "Urotsuki's Dream Apartments" -- "Forest Pier"[dir=forward]
     "Urotsuki's Dream Apartments" -- "Magnet Room"
     
