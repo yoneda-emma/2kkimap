@@ -34,6 +34,7 @@ graph G
 
     "Menu Theme #12"[shape=box]
     "Menu Theme #30"[shape=box]
+    "Menu Theme #38"[shape=box]
     "Menu Theme #40"[shape=box]
     "Menu Theme #46"[shape=box]
     "Menu Theme #64"[shape=box]
@@ -95,6 +96,9 @@ graph G
     "Adabana Gardens" -- "Field of Cosmos"
 
     "Acoustic Lounge" -- "Windowed Plains"
+
+    "Ahogeko's House" -- "3D Structures Path"
+    "Ahogeko's House" -- "Menu Theme #38"
     
     "Amoeba Woods" -- "Foggy Red Street"
 
@@ -256,9 +260,12 @@ graph G
 
     "Dizzy Spirals World" -- "Robotic Slaves Tunnel"
 
+    "DNA Room" -- "Azure Arm Land"
+
     "Downfall Garden A" -- "Crimson Chair Area"
 
     "Drains Theater" -- "Autumn Park"
+    "Drains Theater" -- "Serene Docks"
 
     "Dream Apartment Telephone" -- "Dark Warehouse"
 
@@ -278,6 +285,8 @@ graph G
 
     "Emerald Cave" -- "Mountainous Badlands"
 
+    "Empty Abode" -- "Wacky Worms"
+
     "Encrypted Labyrinth" -- "Broken Shoal"
 
     "Entomophobia Realm" -- "Spore Forest"
@@ -285,6 +294,8 @@ graph G
     "Erythrocyte Maze" -- "Visceral Cavern"
 
     "Fall Shoal" -- "Lamp Passage"
+
+    "False Shoal" -- "Ahogeko's House"
 
     "Fairy Tale Woods" -- "Scenic Outlook"
 
@@ -443,6 +454,7 @@ graph G
 
     "Marijuana Goddess World" -- "Color Cubes World"
     "Marijuana Goddess World" -- "Dark Room"
+    "Marijuana Goddess World" -- "Vitamin World"
 
     "Marshmallow Shallows" -- "3D Underworld"
 
@@ -620,6 +632,8 @@ graph G
 
     "False Guardian's Trials" -- "Sherbet Snowfield"
 
+    "Serene Docks" -- "Empty Abode"
+
     "Sheltered Drains" -- "Bilge Puddle World"
 
     "Shield Owl World" -- "Acerola World"
@@ -663,6 +677,8 @@ graph G
     "Sprout World" -- "Green Neon World"
 
     "Streetlight Docks" -- "Marshmallow Shallows"[dir=forward]
+
+    "Sugar World" -- "False Shoal"
 
     "Sunrise Road" -- "Morning Suburbs"
 
@@ -746,6 +762,12 @@ graph G
     "Virtual City" -- "Reflecting Electron Zone"
 
     "Visceral Cavern" -- "Tartaric Abyss"
+
+    "Vitamin World" -- "Bacteria World"
+    "Vitamin World" -- "Cutlery World"
+    "Vitamin World" -- "DNA Room"
+    "Vitamin World" -- "Sweet Medical Utopia"
+    "Vitamin World" -- "Sugar World"
 
     "Warzone" -- "Ice Block World"
 
