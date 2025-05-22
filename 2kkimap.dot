@@ -41,6 +41,7 @@ graph G
     "Menu Theme #8"[shape=box]
     "Menu Theme #9"[shape=box]
     "Menu Theme #12"[shape=box]
+    "Menu Theme #17"[shape=box]
     "Menu Theme #30"[shape=box]
     "Menu Theme #38"[shape=box]
     "Menu Theme #40"[shape=box]
@@ -475,6 +476,8 @@ graph G
     
     "Maple Forest" -- "Star Hub"
 
+    "Maple Shrine" -- "Menu Theme #17"
+
     "Marijuana Goddess World" -- "Color Cubes World"
     "Marijuana Goddess World" -- "Dark Room"
     "Marijuana Goddess World" -- "Vitamin World"
@@ -720,9 +723,11 @@ graph G
     "The Deciding Street" -- "The Deciding Street: The Bazaar"
     
     "The Deciding Street: The Bazaar" -- "Twintails Effect"
-    
+   
+    "The Hand Hub" -- "Bug Maze"
     "The Hand Hub" -- "Christmas World"
     "The Hand Hub" -- "Dark Bunker"
+    "The Hand Hub" -- "Maple Shrine"
     "The Hand Hub" -- "Shinto Shrine"
 
     "The Magic Nexus" -- "Azure Arm Land"
