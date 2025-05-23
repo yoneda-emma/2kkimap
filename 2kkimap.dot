@@ -523,7 +523,7 @@ graph G
     "Monochrome Street" -- "Animated Hub"
     "Monochrome Street" -- "Shinto Shrine"
 
-    "Moonlit Street" "Mini-Nexus"
+    "Moonlit Street" -- "Mini-Nexus"
 
     "Morning Suburbs" -- "Cerulean School"
 
