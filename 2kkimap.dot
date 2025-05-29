@@ -357,7 +357,7 @@ graph G
     "Forest World" -- "Golden Sunset Estate"
     "Forest World" -- "Forest World: The Monster's Jaw"
     "Forest World" -- "Forest World: Underground"
-    "Physical Drink Mask"
+    //"Physical Drink Mask"
 
     "Forlorn Beach House" -- "Apartments"
     "Forlorn Beach House" -- "Art Gallery"
