@@ -207,6 +207,8 @@ graph G
     "Bug Maze" -- "Scenic Outlook"
     "Bug Maze" -- "Sign World"
 
+    "Burgundy Flats" -- "Lonely Home"
+
     "Burial Desert" -- "Industrial Towers"
 
     "Candlelight Void" -- "Blood Rose Canal"
@@ -474,6 +476,8 @@ graph G
 
     "Library" -- "Tricolor Room (Picture Book)"
 
+    "Lonely Home" -- "Graveyard of Repentance"
+
     "Loquat Orchard" -- "Polygon Mazescape"
 
     "Lotus Waters" -- "Seaside Village"
@@ -578,6 +582,8 @@ graph G
     "Ox Horn Plaza" -- "Binding Site"
 
     "Paint Splatter Park" -- "Magenta Village"
+
+    "Pale Brick Basement" -- "Burgundy Flats"
 
     "Pale Corridors" -- "Unknown Location (Lavender)"
 
