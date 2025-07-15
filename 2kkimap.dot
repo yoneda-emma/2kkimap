@@ -490,6 +490,7 @@ graph G
 
     "Marijuana Goddess World" -- "Color Cubes World"
     "Marijuana Goddess World" -- "Dark Room"
+    "Marijuana Goddess World" -- "Lotus Park"
     "Marijuana Goddess World" -- "Vitamin World"
 
     "Marshmallow Shallows" -- "3D Underworld"
@@ -789,6 +790,8 @@ graph G
     "Theatre World" -- "Spelling Room"
     
     "Tiled Canvas" -- "Playing Card Dungeon"
+
+    "Torii Trail" -- "Blue Screen Void"
 
     "Toy World" -- "Day and Night Towers"
     "Toy World" -- "Wooden Block World"
