@@ -549,6 +549,8 @@ i
     "Mourning Void" -- "Dream Route"
     "Mourning Void" -- "Serpent Ruins A"[dir=back]
 
+    "Museum of Curiosities" -- "Technicolor Towers"
+
     "Mushroom World" -- "Bug Maze"
     "Mushroom World" -- "Elvis Masada's Place"
     "Mushroom World" -- "Forlorn Beach House"
@@ -761,6 +763,7 @@ i
     "Streetlight Docks" -- "Marshmallow Shallows"[dir=forward]
 
     "Streetlight Garden" -- "Crescent Tile World"
+    "Streetlight Garden" -- "Museum of Curiosities"
 
     "Sugar World" -- "False Shoal"
 
@@ -772,6 +775,8 @@ i
     "Suspended Steamworks" -- "Candlelight Void"
 
     "Swamp of Remembrance" -- "Moonlit Street"
+
+    "Technicolor Towers" -- "Windy Factory"
     
     "Teddy Bear Land" -- "Binding Site"
     "Teddy Bear Land" -- "The Docks"
@@ -876,6 +881,8 @@ i
     "Window Room" -- "Teddy Bear Land"[dir=forward]
 
     "Windowed Plains" -- "Encrypted Labyrinth"
+
+    "Windy Factory" -- "Strawberry Outskirts"
     
     "Wishing Stones" -- "Underwater Forest"
 
