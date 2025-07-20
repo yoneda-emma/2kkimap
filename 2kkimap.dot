@@ -51,6 +51,7 @@ graph G
     "Menu Theme #71"[shape=box]
     "Menu Theme #72"[shape=box]
 
+    "Wallpaper #200"[shape=box]
     "Wallpaper #288"[shape=box]
 
     "Dream Apartment Telephone"[shape=trapezium]
@@ -75,7 +76,7 @@ graph G
     "The Nexus" -- "Lamp Puddle World"
     "The Nexus" -- "Lemonade Edifice"
     "The Nexus" -- "Library"
-    "The Nexus" -- "Marijuana Goddess World"
+    "The Nexus" -- "Marijuana Goddess Woirld"
     "The Nexus" -- "Mushroom World"
     "The Nexus" -- "Night World"
     "The Nexus" -- "Ornamental Plains"
@@ -111,7 +112,7 @@ graph G
 
     "Adabana Gardens" -- "Bubble World"
     "Adabana Gardens" -- "Field of Cosmos"
-
+i
     "Acoustic Lounge" -- "Windowed Plains"
 
     "Ahogeko's House" -- "3D Structures Path"
@@ -130,6 +131,7 @@ graph G
 
     "Art Gallery" -- "Cloud Tops"
     "Art Gallery" -- "Monochrome Feudal Japan: Monochrome Path"
+    "Art Gallery" -- "Visine World"
 
     "Astral World" -- "Frozen Glade"
     "Astral World" -- "Sauna Corridors"
@@ -265,6 +267,8 @@ graph G
     "Crossing Forest" -- "Waterlogged Flats"
 
     "Dark Bunker" -- "Spear Tribe World"
+
+    "Dark Forest" -- "Forest Carnival"
 
     "Dark Museum" -- "Flying Fish World"
     "Dark Museum" -- "Glasses Effect"
@@ -402,7 +406,9 @@ graph G
     "Graveyard World" -- "Hospital"
     "Graveyard World" -- "Red Lily Lake"
    
+    "Gray Road" -- "Dark Forest"
     "Gray Road" -- "Florist"
+    "Gray Road" -- "GALAXY Town"
     "Gray Road" -- "Sprout World"
 
     "Green Neon World" -- "Construction Frame Building"
@@ -441,6 +447,9 @@ graph G
 
     "Illusive Forest" -- "Rice Field"
     "Illusive Forest" -- "Torii Trail"
+
+    "Indigo Pathway" -- "Blinking Docks"
+    "Indigo Pathway" -- "Streetlight Garden"
 
     "Infinite Pools" -- "Brutalist Complex"
     "Infinite Pools" -- "Rune Dunes"
@@ -499,6 +508,8 @@ graph G
 
     "Memory Town" -- "Endless Apartments"
 
+    "Metallurgic Workshop" -- "Foggy Remnants"
+
     "Mini Maze" -- "Bathhouse"
     "Mini Maze" -- "FC Basement"
 
@@ -533,6 +544,7 @@ graph G
     "Morning Suburbs" -- "Cerulean School"
 
     "Mountainous Badlands" -- "Gachapon Plains"
+    "Mountainous Badlands" -- "Indigo Pathway"
 
     "Mourning Void" -- "Dream Route"
     "Mourning Void" -- "Serpent Ruins A"[dir=back]
@@ -568,6 +580,8 @@ graph G
 
     "Oblique Hell: First-Person Maze" -- "Glitched Butterfly Sector"
 
+    "Onyx Tile World" -- "White Black World"
+
     "Orange Badlands" -- "Donut Hole World"
     "Orange Badlands" -- "Sunrise Road"
 
@@ -601,6 +615,7 @@ graph G
     
     "Playing Card Dungeon" -- "Maple Forest"
 
+    "Pleasure Street" -- "Metallurgic Workshop"
     "Pleasure Street" -- "Nerium Lab"
 
     "Pointing Labyrinth" -- "Serpent Ruins A"
@@ -623,6 +638,7 @@ graph G
     "Purple World" -- "Black Building"
     "Purple World" -- "Garden World"
     "Purple World" -- "Highway"
+    "Purple World" -- "Onyx Tile World"
     "Purple World" -- "Red Monastery"
     "Purple World" -- "Shield Owl World"
     
@@ -638,6 +654,8 @@ graph G
 
     "Red Monastery" -- "T-Folk World"
 
+    "Red Rock Caves" -- "Wallpaper #200"
+
     "Red Sewers" -- "Marshmallow Shallows"
 
     "Red Sky Cliff: Splash Streetway" -- "Constellation World"
@@ -647,6 +665,7 @@ graph G
     "Red Streetlight World" -- "Knife World"
     "Red Streetlight World" -- "Magnet Room"
     "Red Streetlight World" -- "Monochrome Street"
+    "Red Streetlight World" -- "Red Rock Caves"
     "Red Streetlight World" -- "Reef Maze"
 
     "Reef Maze" -- "Hall of Memories"
@@ -740,6 +759,8 @@ graph G
     "Sprout World" -- "Green Neon World"
 
     "Streetlight Docks" -- "Marshmallow Shallows"[dir=forward]
+
+    "Streetlight Garden" -- "Crescent Tile World"
 
     "Sugar World" -- "False Shoal"
 
@@ -846,6 +867,8 @@ graph G
     "Warzone" -- "Ice Block World"
 
     "Waterlogged Flats" -- "Ox Horn Plaza"
+
+    "White Black World" -- "Visine World"
     
     "Wind Tunnel" -- "Deserted Pier"
     "Wind Tunnel" -- "Radiant Ruins"
