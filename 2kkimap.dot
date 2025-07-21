@@ -568,6 +568,8 @@ i
     "Nazca Valley" -- "Pumpkin City"
     "Nazca Valley" -- "Rainbow Pottery Zone"
     "Nazca Valley" -- "Snowy Suburbs"
+
+    "Nefarious Chessboard" -- "Thrift Shop"
     
     "Neon Candle World" -- "Cloud Tops"
 
@@ -606,6 +608,8 @@ i
 
     "Pen Passage" -- "Somber Waterfront"
 
+    "Pillar Ark" -- "Nefarious Chessboard"
+
     "Pin Cushion Vineyard" -- "Autumn Pastel Plains"
     "Pin Cushion Vineyard" -- "Blue Palm Road"
     "Pin Cushion Vineyard" -- "Pop Revoir"
@@ -632,7 +636,9 @@ i
     "Portrait Purgatory" -- "Reverie Book Piles"
     "Portrait Purgatory" -- "Sakura Forest"
 
+    "Pudding World" -- "Blue Apartments"
     "Pudding World" -- "Orange Badlands"
+    "Pudding World" -- "Pillar Ark"
     "Pudding World" -- "Soy Basket World"
 
     "Pure White Lands" -- "Lamplit Stones"
@@ -814,6 +820,8 @@ i
     "Theatre World"  -- "Donut Hole World" 
     "Theatre World" -- "Neon Candle World"
     "Theatre World" -- "Spelling Room"
+
+    "Thrift Shop" -- "Foggy Remnants"
     
     "Tiled Canvas" -- "Playing Card Dungeon"
 
