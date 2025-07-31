@@ -76,7 +76,7 @@ graph G
     "The Nexus" -- "Lamp Puddle World"
     "The Nexus" -- "Lemonade Edifice"
     "The Nexus" -- "Library"
-    "The Nexus" -- "Marijuana Goddess Woirld"
+    "The Nexus" -- "Marijuana Goddess World"
     "The Nexus" -- "Mushroom World"
     "The Nexus" -- "Night World"
     "The Nexus" -- "Ornamental Plains"
@@ -125,6 +125,7 @@ i
     "Animated Hub" -- "Stony Buildings"
 
     "Apartments" -- "Monochrome GB World"
+    "Apartments" -- "Sky Kingdom"
     "Apartments" -- "The Docks"
 
     "Archery Cavalry World" -- "Ox Horn Plaza"
@@ -144,16 +145,19 @@ i
 
     "Autumn Pastel Plains" -- "Collaged Charcoal World"
 
+    "Azalea Passage" -- "Whispery Sewers"
+
     "Bacteria World" -- "Blue Shape Zone"
     "Bacteria World" -- "Color Capital"
 
     "Bilge Puddle World" -- "Snow Black"
 
     "Binding Site" -- "Auburn Villa"
+    "Binding Site" -- "Cement World"
     "Binding Site" -- "Grayscale Bookshelves"
+    "Binding Site" -- "Teddy Bear Land"
     "Binding Site" -- "Violent Fruit District"
     "Binding Site" -- "Vivid Blue Flatlands"
-    "Binding Site" -- "Cement World"
 
     "Birch Forest" -- "Magnet Room: Zalgo's Room"
     "Birch Forest" -- "Oriental Lake"
@@ -162,6 +166,8 @@ i
 
     "Bleak Future" -- "Menu Theme #6"
     "Bleak Future" -- "Menu Theme #7"
+
+    "Blinking Docks" -- "Broken Shoal"
 
     "Blood Cell Sea" -- "Stuffed Dullahan World"
 
@@ -198,8 +204,8 @@ i
     "Broken Faces Area" -- "Floating Red Tiles World"
     "Broken Faces Area" -- "Vase World"
 
-    "Broken Shoal" -- "Blinking Docks"
     "Broken Shoal" -- "Blue Black Maze"
+    "Broken Shoal" -- "Encrypted Labyrinth"
     "Broken Shoal" -- "Fragmented Station"
 
     "Brutalist Complex" -- "Cookie Haven"
@@ -208,6 +214,7 @@ i
 
     "Bug Maze" -- "Scenic Outlook"
     "Bug Maze" -- "Sign World"
+    "Bug Maze" -- "The Hand Hub"
 
     "Burgundy Flats" -- "Lonely Home"
 
@@ -309,20 +316,19 @@ i
     "Drift Passage" -- "Gray Road"
     "Drift Passage" -- "The Hand Hub"[dir=forward]
 
-    "Ecstasy World" -- "Forlorn Beach House"
     "Ecstasy World" -- "Sky Kingdom"
-
-    "Elvis Masada's Place" -- "Forlorn Beach House"
 
     "Emerald Cave" -- "Mountainous Badlands"
 
     "Empty Abode" -- "Wacky Worms"
 
-    "Encrypted Labyrinth" -- "Broken Shoal"
+    "Encrypted Labyrinth" -- "Windowed Plains"
 
     "Entomophobia Realm" -- "Spore Forest"
 
     "Erythrocyte Maze" -- "Visceral Cavern"
+
+    "Eyeball Cherry Fields" -- "Mountaintop Ruins"
 
     "False Guardian's Trials" -- "Sherbet Snowfield"
 
@@ -367,6 +373,8 @@ i
 
     "Forlorn Beach House" -- "Apartments"
     "Forlorn Beach House" -- "Art Gallery"
+    "Forlorn Beach House" -- "Ecstasy World"
+    "Forlorn Beach House" -- "Elvis Masada's Place"[dir=back]
     "Forlorn Beach House" -- "Realistic Beach"
     "Forlorn Beach House" -- "Verdigris Garden"
 
@@ -436,10 +444,16 @@ i
 
     "Highway" -- "Downfall Garden A"
 
+    "Himalayan Salt Shoal" -- "Heart Pattern Pathway"
+    "Himalayan Salt Shoal" -- "Polygon Mazescape"[dir=back]
+
     "Home Within Nowhere" -- "Pure White Lands"
     
     "Hospital" -- "Graffiti Maze"
     "Hospital" -- "Landolt Ring World"
+
+    "Hot Air Balloon World" -- "Azalea Passage"
+    "Hot Air Balloon World" -- "Himalayan Salt Shoal"
 
     "Hourglass Desert" -- "Hourglass Desert: Pyramid Maze" 
 
@@ -481,6 +495,7 @@ i
     "Lavender Office" -- "Verdant Nexus"
     
     "Lemonade Edifice" -- "Bodacious Rotation Station"
+    "Lemonade Edifice" -- "Pulsating Yellow Passage"
     "Lemonade Edifice" -- "Theatre World"
 
     "Library" -- "Tricolor Room (Picture Book)"
@@ -488,6 +503,7 @@ i
     "Lonely Home" -- "Graveyard of Repentance"
 
     "Loquat Orchard" -- "Polygon Mazescape"
+    "Loquat Orchard" -- "Somber Waterfront"
 
     "Lotus Waters" -- "Seaside Village"
 
@@ -516,9 +532,9 @@ i
     "Mini-Nexus" -- "Blueberry Farm"
     "Mini-Nexus" -- "Candyfloss Sea"
     "Mini-Nexus" -- "Crying Mural World"
+    "Mini-Nexus" -- "Moonlit Street"
     "Mini-Nexus" -- "Pale Corridors"
     "Mini-Nexus" -- "Potato Starch World"
-    "Mini-Nexus" -- "Teru Teru Bozu Pond"
     "Mini-Nexus" -- "Vomiting Mouths World"
 
     "Miraculous Waters" -- "Erythrocyte Maze"
@@ -538,8 +554,6 @@ i
 
     "Monochrome Street" -- "Animated Hub"
     "Monochrome Street" -- "Shinto Shrine"
-
-    "Moonlit Street" -- "Mini-Nexus"
 
     "Morning Suburbs" -- "Cerulean School"
 
@@ -620,6 +634,7 @@ i
     "Planter Passage" -- "Somber Establishment"
     
     "Playing Card Dungeon" -- "Maple Forest"
+    "Playing Card Dungeon" -- "Tiled Canvas"
 
     "Pleasure Street" -- "Metallurgic Workshop"
     "Pleasure Street" -- "Nerium Lab"
@@ -640,6 +655,8 @@ i
     "Pudding World" -- "Orange Badlands"
     "Pudding World" -- "Pillar Ark"
     "Pudding World" -- "Soy Basket World"
+
+    "Pulsating Yellow Passage" -- "Loquat Orchard"
 
     "Pure White Lands" -- "Lamplit Stones"
 
@@ -670,6 +687,7 @@ i
    
     "Red Streetlight World" -- "Bridged Swamp Islands"
     "Red Streetlight World" -- "Gray Road"
+    "Red Streetlight World" -- "Hot Air Balloon World"
     "Red Streetlight World" -- "Knife World"
     "Red Streetlight World" -- "Magnet Room"
     "Red Streetlight World" -- "Monochrome Street"
@@ -739,8 +757,6 @@ i
     "Sign World" -- "Haniwa Temple"
     "Sign World" -- "Teleport Maze"
 
-    "Sky Kingdom" -- "Apartments"
-
     "Snowy Apartments" -- "Underground Garage"
 
     "Somber Establishment" -- "Ruby Forest"
@@ -748,7 +764,6 @@ i
     "Somber Establishment" -- "Submerged Signs World"
     "Somber Establishment" -- "Teru Teru Bozu Pond"
 
-    "Somber Waterfront" -- "Loquat Orchard"
     "Somber Waterfront" -- "Ruby Forest"
 
     "Spaceship" -- "Pollution District"
@@ -766,10 +781,15 @@ i
     "Sprout World" -- "Dream Venus"
     "Sprout World" -- "Green Neon World"
 
+    "Stony Buildings" -- "Clubhouse Yard"
+    "Stony Buildings" -- "Sugar Road"
+
     "Streetlight Docks" -- "Marshmallow Shallows"[dir=forward]
 
     "Streetlight Garden" -- "Crescent Tile World"
     "Streetlight Garden" -- "Museum of Curiosities"
+
+    "Sugar Road" -- "Mountaintop Ruins"
 
     "Sugar World" -- "False Shoal"
 
@@ -783,9 +803,8 @@ i
     "Swamp of Remembrance" -- "Moonlit Street"
 
     "Technicolor Towers" -- "Windy Factory"
-    
-    "Teddy Bear Land" -- "Binding Site"
-    "Teddy Bear Land" -- "The Docks"
+
+    "Teru Teru Bozu Pond" -- "Mini-Nexus"
     
     "T-Folk World" -- "Giant Desktop"
 
@@ -794,8 +813,9 @@ i
     "The Deciding Street" -- "The Deciding Street: The Bazaar"
     
     "The Deciding Street: The Bazaar" -- "Twintails Effect"
+
+    "The Docks" -- "Teddy Bear Land"
    
-    "The Hand Hub" -- "Bug Maze"
     "The Hand Hub" -- "Christmas World"
     "The Hand Hub" -- "Dark Bunker"
     "The Hand Hub" -- "Maple Shrine"
@@ -822,8 +842,6 @@ i
     "Theatre World" -- "Spelling Room"
 
     "Thrift Shop" -- "Foggy Remnants"
-    
-    "Tiled Canvas" -- "Playing Card Dungeon"
 
     "Torii Trail" -- "Blue Screen Void"
 
@@ -881,6 +899,8 @@ i
 
     "Waterlogged Flats" -- "Ox Horn Plaza"
 
+    "Whispery Sewers" -- "Eyeball Cherry Fields"
+
     "White Black World" -- "Visine World"
     
     "Wind Tunnel" -- "Deserted Pier"
@@ -888,10 +908,8 @@ i
 
     "Window Room" -- "Teddy Bear Land"[dir=forward]
 
-    "Windowed Plains" -- "Encrypted Labyrinth"
-
     "Windy Factory" -- "Strawberry Outskirts"
-    
+
     "Wishing Stones" -- "Underwater Forest"
 
     "Witch Heaven" -- "Ice Block World"
